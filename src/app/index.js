@@ -25,7 +25,7 @@ var TodoComponent = React.createClass({ // pass in an object to the createClass 
 
   getInitialState: function(){ // method that initializes the state of the component
     return { // returns an object that contains properties and values
-      todos: ['wash up', 'eat some cheese', 'take a nap', 'buy flowers']
+      todos: ['Attend career fair', 'Write essay', 'Finish project', 'Study for exam']
     }
   },
 

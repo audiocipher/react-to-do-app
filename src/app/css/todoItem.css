@@ -13,11 +13,13 @@
   flex-grow: 9;
 }
 
-.item-remove{
-  flex-basis: 0;
-  flex-grow: 1;
-  text-align: right;
-  color: #7f4cc1;
-  font-weight: bold;
+button{
+  background-color: #222;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
   cursor: pointer;
 }

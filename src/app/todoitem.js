@@ -8,7 +8,7 @@ var TodoItem = React.createClass({
       <li>
         <div className="todo-item">
           <span className="item-name">{this.props.item}</span>
-          <span className="item-delete" onClick={this.handleDelete}> x </span>
+          <button type="button" className="item-delete" onClick={this.handleDelete}> &times; </button>
         </div>
       </li>
     );

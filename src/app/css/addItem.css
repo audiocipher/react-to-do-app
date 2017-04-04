@@ -1,24 +1,30 @@
 #add-todo{
   display: flex;
+  padding-bottom: .25em;
 }
 
 #add-todo input[type="text"]{
-    flex-basis: 0;
-    flex-grow: 7;
-    padding: 10px;
-    border: 2px solid #7f4cc1;
-    border-radius: 4px 0 0 4px;
-    color: #777;
+  flex-basis: 0;
+  flex-grow: 7;
+  padding: 10px;
+  border: 3px solid #222;
+  border-radius: 4px 0 0 4px;
+  color: #222;
+  font-family: 'Rubik', sans-serif;
+  background-color: #ffe699;
+  font-size: 1.1em;
 }
 
 #add-todo input[type="submit"]{
-    flex-basis: 0;
-    flex-grow: 3;
-    padding: 10px;
-    background: #7f4cc1;
-    border-radius: 0 4px 4px 0;
-    border: 2px solid #7f4cc1;
-    color: #fff;
-    text-transform: uppercase;
-    cursor: pointer;
+  flex-basis: 0;
+  flex-grow: 3;
+  padding: 10px;
+  background: #222;
+  border-radius: 0 4px 4px 0;
+  border: 2px solid #222;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.1em;
 }
